@@ -1,22 +1,96 @@
+* {
+    font-family: sans-serif;
+}
+
 table {
-    width: 100%;
-    background-color: rgb(87, 86, 86);
+    width: calc(100% - 2rem);
+    /* background-color: #fafafa; */
     padding-right: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 0.7rem;
+    border-radius: 3rem;
+    margin: 1rem;
+    /* filter: drop-shadow(3px 3px 100px #444444); */
+    /* background: #41295a;
+    background: -webkit-linear-gradient(to left, #2F0743, #41295a);
+    background: linear-gradient(to left, #2F0743, #41295a); */
 }
 
 td {
     float: right;
     padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+th{
+    float:left;
+    margin-left:2rem;
 }
 
-th a{
+th a {
     text-decoration: none;
-    color: #fafafa;
+    color: #121212;
+    font-size: 1.75rem;
 }
 
 td a {
     text-decoration: none;
+    color: #121212;
+}
+td a :hover{
+    border: 2px solid red !important;
+}
+
+h1 a {
     color: #fafafa;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 200%;
+    border: 5px solid #fafafa;
+    padding: 1rem;
+}
+h1 :hover{
+    font-size: 250%;
+}
+
+.img-card {
+    width: calc(100% - 6rem);
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/threeCars.jpg') center;
+    height: 18rem;
+    background-size: cover;
+    padding-top: 10rem;
+    border-radius: 0.5rem;
+    margin: 3rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+/* body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    min-height: calc(100vh - 130px);
+} */
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    padding: 1rem;
+    color: #fafafa;
+    background: #191C2F;
+    font-weight: 600;
 }
