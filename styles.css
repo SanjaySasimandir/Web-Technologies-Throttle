@@ -54,7 +54,7 @@ h1 :hover{
 
 .img-card {
     width: calc(100% - 6rem);
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/images/threeCars.jpg') center;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://raw.githubusercontent.com/SanjaySasimandir/Web-Technologies-Throttle/main/images/threeCars.jpg') center;
     height: 18rem;
     background-size: cover;
     padding-top: 10rem;
