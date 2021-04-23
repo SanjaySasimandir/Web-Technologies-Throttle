@@ -4,16 +4,11 @@
 
 table {
     width: calc(100% - 2rem);
-    /* background-color: #fafafa; */
     padding-right: 2rem;
     padding-top: 0.5rem;
     padding-bottom: 0.7rem;
     border-radius: 3rem;
     margin: 1rem;
-    /* filter: drop-shadow(3px 3px 100px #444444); */
-    /* background: #41295a;
-    background: -webkit-linear-gradient(to left, #2F0743, #41295a);
-    background: linear-gradient(to left, #2F0743, #41295a); */
 }
 
 td {
@@ -21,9 +16,10 @@ td {
     padding-left: 1rem;
     padding-top: 0.5rem;
 }
-th{
-    float:left;
-    margin-left:2rem;
+
+th {
+    float: left;
+    margin-left: 2rem;
 }
 
 th a {
@@ -36,7 +32,8 @@ td a {
     text-decoration: none;
     color: #121212;
 }
-td a :hover{
+
+td a :hover {
     border: 2px solid red !important;
 }
 
@@ -48,7 +45,8 @@ h1 a {
     border: 5px solid #fafafa;
     padding: 1rem;
 }
-h1 :hover{
+
+h1 :hover {
     font-size: 250%;
 }
 
@@ -64,25 +62,6 @@ h1 :hover{
     align-items: center;
 }
 
-/* body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    min-height: calc(100vh - 130px);
-} */
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
 footer {
     bottom: 0;
     left: 0;
@@ -93,4 +72,131 @@ footer {
     color: #fafafa;
     background: #191C2F;
     font-weight: 600;
+}
+
+/*~~~~~~~~~~~~~~~~~~ Browse ~~~~~~~~~~~~~~~~~~*/
+
+.heading {
+    text-shadow: 10px 10px 50px #000000;
+}
+
+img {
+    filter: blur(50);
+    background-color: #000000;
+    filter: brightness(70%);
+}
+
+.card-img {
+    background-size: cover !important;
+    outline: none !important;
+    text-decoration: none;
+    width: 80%;
+    height: 50vh;
+    position: relative;
+    filter: drop-shadow(3px 3px 10px #444343);
+    background-position: center !important;
+    margin: 1rem;
+}
+
+.card-style {
+    position: absolute;
+    bottom: 0;
+    margin-left: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-style p, .card-style h1 {
+    text-align: left;
+    line-height: 0rem;
+    color: #fafafa;
+}
+
+.foot-margin {
+    margin-bottom: 6rem;
+}
+
+/*~~~~~~~~~~~~~~~~~~ About Us ~~~~~~~~~~~~~~~~~~*/
+
+.about-title h1 {
+    margin-top: calc(50vh - 8rem);
+    color: #1a1a1a;
+    font-size: 300%;
+    line-height: 1rem;
+}
+
+.about-title h3 {
+    color: #424242;
+    font-size: 150%;
+    line-height: 1rem;
+}
+
+.about-title p {
+    color: #616161;
+    line-height: 1rem;
+}
+
+.about-title {
+    margin: 3.4rem;
+    margin-top: 0;
+}
+
+/*~~~~~~~~~~~~~~~~~~ Login ~~~~~~~~~~~~~~~~~~*/
+
+.flex-container {
+    display: flex;
+    margin: 10vh;
+    margin-top: 7vh;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.login-img {
+    background-size: cover !important;
+    background: url('../images/login-porsche.jpg');
+    position: relative;
+    background-position: center !important;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.login-part {
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.login-card {
+    margin-left: 30%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.login-label input {
+    margin-bottom: 1rem !important;
+}
+
+.login-title {
+    color: #424242;
+    font-size: 150%;
+}
+
+.primary-button{
+    background-color: rgb(15, 136, 235);
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    color: #fafafa;
+    font-size: medium;
+    padding-left:2rem;
+    padding-right: 2rem;
+    border: 2px solid rgb(15, 136, 235);
+    margin-left: 2rem;
+}
+
+.secondary-links a{
+    text-decoration: none;
 }
