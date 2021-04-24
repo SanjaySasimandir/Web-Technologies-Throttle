@@ -232,16 +232,15 @@ img {
     margin-left: 7rem;
 }
 
-.register-title {
-}
-
-.register-card label input{
-    margin-bottom:1rem;
+.register-card label input {
+    margin-bottom: 1rem;
     width: 100%;
 }
-.normal-width input{
-    width:inherit !important;
+
+.normal-width input {
+    width: inherit !important;
 }
-.login-label textarea{
+
+.login-label textarea {
     width: 100%;
 }

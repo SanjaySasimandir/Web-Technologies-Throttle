@@ -19,8 +19,11 @@
         </tr>
     </table>
 
-    <form class="register-card" method="post" action="./login.html">
-        <center><h1 class="register-title">Register</h1></center>
+    <form class="register-card" action="./login.html">
+
+        <center>
+            <h1 class="register-title">Register</h1>
+        </center>
         <label class="login-label">First Name:<br><input type="text" placeholder="Enter your First Name"></label><br>
         <label class="login-label">Last Name:<br><input type="text" placeholder="Enter your Last Name"></label><br>
         <label class="login-label normal-width">Sex:
@@ -47,13 +50,22 @@
             &nbsp;&nbsp;&nbsp;<input type="checkbox" id="Korean"><label for="Korean"> Korean</label><br>
         </label><br>
         <label class="login-label">Address:<br><textarea name="" id="" cols="30" rows="5"></textarea></label><br>
-        <input class="primary-button" type="submit" value="Submit"><input class="secondary-button" type="reset" value="Reset">
+        
+        <button class="primary-button" onclick="submit()" type="submit">Submit</button><input class="secondary-button"
+            type="reset" value="Reset">
 
     </form>
 
     <footer>
         Throttle | 2021
     </footer>
+
+    <script>
+        function submit() {
+            alert("Successfully Registered!");
+            return true;
+        }
+    </script>
 
 </body>
 
