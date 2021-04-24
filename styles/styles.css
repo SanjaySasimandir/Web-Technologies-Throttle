@@ -171,7 +171,7 @@ img {
 }
 
 .login-card {
-    margin-left: 30%;
+    margin-left: 15vw;
     margin-top: 3rem;
     margin-bottom: 2rem;
 }
@@ -202,4 +202,46 @@ img {
 
 .secondary-links a {
     text-decoration: none;
+}
+
+/*~~~~~~~~~~~~~~~~~~ Register ~~~~~~~~~~~~~~~~~~*/
+
+.register-card {
+    background: rgba( 255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    padding: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    margin-left: 31.5vw;
+    margin-right: 45vw;
+    min-width: 30vw;
+}
+
+.secondary-button {
+    background-color: rgb(247, 66, 26);
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    color: #fafafa;
+    font-size: medium;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border: 2px solid rgb(247, 66, 26);
+    margin-left: 7rem;
+}
+
+.register-title {
+}
+
+.register-card label input{
+    margin-bottom:1rem;
+    width: 100%;
+}
+.normal-width input{
+    width:inherit !important;
+}
+.login-label textarea{
+    width: 100%;
 }
