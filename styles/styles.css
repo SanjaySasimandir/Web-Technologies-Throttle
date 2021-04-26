@@ -96,6 +96,7 @@ img {
     filter: drop-shadow(3px 3px 10px #444343);
     background-position: center !important;
     margin: 1rem;
+    cursor: pointer;
 }
 
 .card-style {
@@ -118,7 +119,7 @@ img {
 /*~~~~~~~~~~~~~~~~~~ About Us ~~~~~~~~~~~~~~~~~~*/
 
 .about-title h1 {
-    margin-top: calc(50vh - 8rem);
+    margin-top: calc(30vh - 8rem);
     color: #1a1a1a;
     font-size: 300%;
     line-height: 1rem;
@@ -243,4 +244,8 @@ img {
 
 .login-label textarea {
     width: 100%;
+}
+iframe{
+    margin:3.4rem;
+    margin-top:0rem !important;
 }
